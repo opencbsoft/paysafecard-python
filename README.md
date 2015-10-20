@@ -2,5 +2,7 @@
 A class that implements the classic payment function of http://www.paysafecard.com
 
 ================================
-Instalation:
+## Instalation:
+```
 pip install paysafecard
+```
