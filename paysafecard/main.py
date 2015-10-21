@@ -173,6 +173,8 @@ class PaySafeCard:
             if not value:
                 self.__add_log('invalid_client_id', 'validate_clientId', value)
                 return False
+            else:
+                return True
         elif type == 'currency':
             if len(value) != 3:
                 self.__add_log('wrong_currency', 'validate_currency', value)
