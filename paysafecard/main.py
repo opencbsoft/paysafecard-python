@@ -128,7 +128,7 @@ class PaySafeCard:
         return out
 
     def __suds_to_json(self, data):
-        return json.dumps(self.__recursive_asdict(data))
+        return self.__recursive_asdict(data)
 
     def __validate(self, type, value):
         if type == '' and value == '':

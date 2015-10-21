@@ -58,3 +58,4 @@ target/
 .idea/
 dist/
 paysafecard_python.egg-info/
+paysafecard/example.py
