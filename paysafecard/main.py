@@ -78,10 +78,11 @@ class PaySafeCard:
                 self.__add_log('Error '+str(json_response), 'create_disposition')
                 return False
 
-    def get_serial_numbers(self, mtid, currency, subid):
+    def get_serial_numbers(self, mtid, currency, subid=None):
         self.set_field('mtid', mtid)
         self.set_field('currency', currency)
-        self.set_field('subId', subid)
+        if subid:
+            self.set_field('subId', subid)
         if not (self.data['username'] or self.data['password'] or self.data['mtid'] or self.data['currency']):
             self.__add_log('One of the required fields is missing', 'get_serial_numbers')
             return False
