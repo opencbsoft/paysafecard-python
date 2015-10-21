@@ -6,7 +6,7 @@ with open(path.join(here, 'README.md')) as f:
     long_description = f.read()
 setup(
     name='paysafecard',
-    version='0.1',
+    version='0.2',
     packages=['paysafecard'],
     url='https://github.com/opencbsoft/paysafecard-python',
     license='MIT',
@@ -19,7 +19,7 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
