@@ -1,4 +1,4 @@
-from paysafe import PaySafeCard
+from paysafecard.main import PaySafeCard
 
 username = ''
 password = ''
