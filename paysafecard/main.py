@@ -232,7 +232,7 @@ class PaySafeCard:
                 return True
 
     def __reset(self):
-        fields = ['username', 'password', 'mtid', 'clientIp', 'subId', 'merchantClientId', 'amount', 'currency', 'language', 'locale', 'close',
+        fields = ['username', 'password', 'mtid', 'clientIp', 'subId', 'merchantclientid', 'amount', 'currency', 'language', 'locale', 'close',
                   'mid', 'shopLabel', 'shopId', 'ok_url', 'nok_url', 'pn_url', 'dispositionRestrictions', 'dispositionState']
         for field in fields:
             self.data[field] = ''
