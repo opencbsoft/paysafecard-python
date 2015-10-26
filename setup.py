@@ -6,7 +6,7 @@ with open(path.join(here, 'README.md')) as f:
     long_description = f.read()
 setup(
     name='paysafecard',
-    version='0.2.2',
+    version='0.2.4',
     packages=['paysafecard'],
     url='https://github.com/opencbsoft/paysafecard-python',
     license='MIT',
